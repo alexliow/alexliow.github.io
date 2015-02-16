@@ -1,0 +1,117 @@
+@font-face{
+	font-family: Sunn;
+	src: url('../fonts/SUNN.otf');
+}
+
+@font-face{
+	font-family: Edelsans;
+	src: url('../fonts/edelsans_regular.otf');
+}
+
+@font-face{
+	font-family: "Nexa Light";
+	src: url('../fonts/Nexa Light.otf');
+}
+
+@font-face{
+	font-family: "Jaapokki";
+	src: url('../fonts/Jaapokki_Regular.otf');
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+a:link{
+	color: #c0392b;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #c0392b;
+	text-decoration: none;
+}
+
+a:hover{
+	color: gray;
+}
+
+#personalBackground {
+	float: left;
+	width: 100%; 
+	height: auto; 
+	background-size: cover;
+	background-image: url(../images/contactBackground.jpg);
+}
+
+.navface{
+	float:left;
+	width: 90px;
+	height: auto;
+	margin: 2% 0 0 6%;
+}
+
+.navbar{
+	list-style-type: none;
+	margin: 1em 4em 0 0;
+	width: 30%;
+	float: right;
+	right: 0px;
+	position: absolute;
+	z-index:100;
+}
+
+li{
+	display: inline;
+	float: right;
+	font-family: "Edelsans";
+	font-weight: bold;	
+	margin: 0 10px 0 10px;
+	z-index:100;
+	width: 70px;
+}
+
+.icon{
+	width: 60px;
+	height: auto;
+}
+
+.icon:hover{
+	width: 70px;
+  cursor: pointer;
+}
+
+#heading{
+	font-family: "Sunn";
+	font-size: 100px;
+	color: white;
+	text-align: center;
+	line-height: 3.5em;
+}
+
+#footer{
+	float: left;
+	height: 80px;
+	width: 100%;
+	background-color: #c0392b;
+	text-align: center;
+}
+
+span{
+	font-family: "Jaapokki";
+	font-weight: bolder;
+	text-align: justify;
+}
+
+#contactForm {
+	font-family: Edelsans;
+	padding: 5% 20% 5% 20%;
+	float: left;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#justify{
+	font-family: Edelsans;
+}
