@@ -15,7 +15,7 @@
 
 @font-face{
 	font-family: "Jaapokki";
-	src: url('../fonts/Jaapokki_Regular.otf');
+	src: url('../fonts/Jaapokki-Regular.otf');
 }
 
 body{
@@ -102,11 +102,13 @@ li{
 }
 
 #footer{
+	line-height: 3ex;
 	float: left;
-	height: 80px;
+	height: 90px;
 	width: 100%;
 	background-color: #c0392b;
 	text-align: center;
+	font-family: "Jaapokki";
 }
 
 span{
