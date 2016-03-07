@@ -8,8 +8,8 @@ $(function() {
     $('form').submit(function() {
     	var formData = {
             'name'              : $('input[name=name]').val(),
-            'email'             : $('input[name=email]').val(),
-            'message'    		: $('input[name=message]').val()
+            'email'             : $('input[name=reply_to]').val(),
+            'message'    		: $('textarea[name=message]').val()
         };
 
         window.alert(formData.email);
