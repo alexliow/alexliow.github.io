@@ -12,16 +12,13 @@ $(function() {
             'message'    		: $('textarea[name=message]').val()
         };
 
-        $.ajax({
+        var promise = $.ajax({
             type: 'POST',
             url: 'http://formspree.io/liow.alex@gmail.com',
             data: formData,
             enc: true,
-            success: function() {
-            	 swal("Good job!", "You clicked the button!", "success");
-            }
+            success: function(){swal("Good job!", "You clicked the button!", "success");}
         });
     });
 })
-
 
