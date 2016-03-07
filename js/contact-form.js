@@ -12,6 +12,8 @@ $(function() {
             'message'    		: $('input[name=message]').val()
         };
 
+        window.alert("alex");
+
         $.ajax({
             type: 'POST',
             url: 'http://formspree.io/liow.alex@gmail.com',
