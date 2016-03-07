@@ -15,6 +15,7 @@ $(function() {
         var promise = $.ajax({
             type: 'POST',
             url: 'http://formspree.io/liow.alex@gmail.com',
+            dataType: 'jsonp',
             data: formData,
             enc: true,
             error: function(xhr,status,error) {
