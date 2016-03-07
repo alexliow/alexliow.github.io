@@ -7,6 +7,7 @@ function adjust_textarea(h) {
 
 $(function() {
     $('form').submit(function() {
+    	window.alert("HELLO!");
         $.ajax({
             type: 'POST',
             url: 'http://formspree.io/liow.alex@gmail.com',
