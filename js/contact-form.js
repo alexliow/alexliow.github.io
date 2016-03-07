@@ -12,7 +12,7 @@ $(function() {
             'message'    		: $('input[name=message]').val()
         };
 
-        window.alert(formData);
+        window.alert(formData.name);
 
         $.ajax({
             type: 'POST',
