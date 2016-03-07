@@ -22,3 +22,7 @@ $(function() {
     });
 })
 
+$( document ).ajaxComplete(function() {
+	swal("Good job!", "You clicked the button!", "success");
+});
+
