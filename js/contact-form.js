@@ -12,7 +12,7 @@ $(function() {
             'message'    		: $('textarea[name=message]').val()
         };
 
-        var promise = $.ajax({
+        $.ajax({
             type: 'POST',
             url: 'http://formspree.io/liow.alex@gmail.com',
             data: formData,
