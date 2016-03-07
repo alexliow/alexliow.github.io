@@ -20,7 +20,7 @@ $(function() {
             error: function(xhr,status,error) {
            		// error code here
            		console.log("error");
-	           	swal("Good job!", "You clicked the button!", "success");
+	           	swal("Thanks!" + formData.name, "I look forward to reading your message.", "success");
 	           	$('form')[0].reset();
         	},
         	succcess: function(xhr,status) {
