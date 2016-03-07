@@ -17,7 +17,8 @@ $(function() {
         $.ajax({
             type: 'POST',
             url: 'http://formspree.io/liow.alex@gmail.com',
-            data: formData 
+            data: formData,
+            enc: true
         });
     });
 })
