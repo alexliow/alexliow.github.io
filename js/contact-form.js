@@ -15,7 +15,6 @@ $(function() {
         var promise = $.ajax({
             type: 'POST',
             url: 'http://formspree.io/liow.alex@gmail.com',
-            dataType: 'jsonp',
             data: formData,
             enc: true,
             error: function(xhr,status,error) {
@@ -34,4 +33,8 @@ $(function() {
         promise.always(function() {console.log("second always");swal("Good job!", "You clicked the button!", "success");});
     });
 })
+
+app.get('/posts', function(req, res){
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "X-Requested-With"); 
 				
