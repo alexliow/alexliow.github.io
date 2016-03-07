@@ -20,7 +20,7 @@ $(function() {
             error: function(xhr,status,error) {
            		// error code here
            		console.log("error");
-           		sweetAlert("Oops...", "Something went wrong!", "error");	
+	           	swal("Good job!", "You clicked the button!", "success");
         	},
         	succcess: function(xhr,status) {
 	           	// completion code here
