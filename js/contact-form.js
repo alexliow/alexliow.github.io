@@ -12,13 +12,16 @@ $(function() {
             'message'    		: $('textarea[name=message]').val()
         };
 
-        window.alert(formData.email);
-
         $.ajax({
             type: 'POST',
             url: 'http://formspree.io/liow.alex@gmail.com',
             data: formData,
-            enc: true
+            enc: true,
+            success: function() {
+            	 swal("Good job!", "You clicked the button!", "success");
+            }
         });
     });
 })
+
+
