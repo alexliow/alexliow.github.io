@@ -7,12 +7,36 @@
 	<script src="js/contact-form.js" type="text/javascript"></script>
 </head>
 
-<div class="form-style-8">
-  <form action="http://formspree.io/liow.alex@gmail.com" method="POST">
-    <input type="text" name="name" placeholder="Full Name" />
-    <input type="email" name="reply_to" placeholder="Email" />
-    <textarea placeholder="Message" name="message" onkeyup="adjust_textarea(this)"></textarea>
-    <input type="submit" value="Send Message" />
-  </form>
+<div id="personalBackground">
+	<a href="index.html"><img src="images/navface.png" class="navface" alt="profile"></a>
+
+	<ul class="navbar">
+		<li><a href="contact.php"><img class="icon" src="images/contact.png" alt="contact"></a></li>
+		<li><a href="interests.html"><img class="icon" src="images/interests.png" alt="interests"></a></li>
+		<li><a href="personal.html"><img class="icon" src="images/personal.png" alt="personal"></a></li>
+		<li><a href="index.html"><img class="icon" src="images/home.png" alt="home"></a></li>
+	</ul>
+			
+	<br>
+	<br>
+	<p id="heading">CONTACT</p>
+</div>
+
+<div id="form-container">
+	<span id="contactHeader">Send Me a Message</span>
+	<div class="form-style-8">
+			<form action="http://formspree.io/liow.alex@gmail.com" method="POST">
+				<input type="text" name="name" placeholder="Name" />
+				<input type="email" name="reply_to" placeholder="Email" />
+				<textarea placeholder="Message" name="message" onkeyup="adjust_textarea(this)"></textarea>
+				<input type="submit" value="Send Message" />
+			</form>
+	</div>
+</div>
+
+<div id="footer">
+	<br>
+	<br>
+	<span>Made by Alex Liow | Cornell University | Ithaca, NY</span>
 </div>
 </html>
