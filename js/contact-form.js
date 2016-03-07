@@ -6,11 +6,16 @@ function adjust_textarea(h) {
 
 $(function() {
     $('form').submit(function() {
+    	var formData = {
+            'name'              : $('input[name=name]').val(),
+            'email'             : $('input[name=email]').val(),
+            'message'    		: $('input[name=message]').val()
+        };
+
         $.ajax({
             type: 'POST',
             url: 'http://formspree.io/liow.alex@gmail.com',
-            data: { username: $(this).name.value, 
-                    password: $(this).email.value }
+            data: formData 
+        	datatype: 'json'})
         });
-    }); 
-})
+    })
