@@ -21,20 +21,16 @@ $(function() {
            		// error code here
            		console.log("error");
 	           	swal("Good job!", "You clicked the button!", "success");
+	           	$('form')[0].reset();
         	},
         	succcess: function(xhr,status) {
 	           	// completion code here
 	           	console.log("success");
 	           	return promise;
 	           	swal("Good job!", "You clicked the button!", "success");
+	           	$('form')[0].reset();
         	}
-        }).success(function(){console.log("first always");swal("Good job!", "You clicked the button!", "success");});
+        });
          return false;
-        promise.always(function() {console.log("second always");swal("Good job!", "You clicked the button!", "success");});
     });
 })
-
-app.get('/posts', function(req, res){
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Headers", "X-Requested-With"); 
-});
