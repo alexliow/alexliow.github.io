@@ -13,7 +13,6 @@ $(function() {
             data: { username: $(this).name.value, 
                     password: $(this).email.value }
         });
-        return false;
     }); 
 })
 </script>
