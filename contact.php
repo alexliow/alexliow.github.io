@@ -2,7 +2,7 @@
 "http://www.w3.org/TR/html4/strict.dtd">
 	<head>
 		<title>Alex Liow</title>
-		<link rel="shortcut icon" href="images/favicon.png" type="image/png">
+		<link rel="shortcut icon" href="https://s3.amazonaws.com/aliow-personal-site/favicon.png" type="image/png">
 		<link rel="stylesheet" type="text/css" href="stylesheets/contact.css">
 	</head>
 
@@ -98,7 +98,7 @@
 		<div id="footer">
       		<br>
       		<br>
-      		<span>Made by Alex Liow | Spring 2015 | Ithaca, NY</span>
+      		<span>Designed and Built by Alex Liow | Cornell University | Class of 2016</span>
         </div>
 	</body>
 </html>
