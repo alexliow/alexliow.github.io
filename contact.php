@@ -4,6 +4,7 @@
 		<title>Alex Liow</title>
 		<link rel="shortcut icon" href="https://s3.amazonaws.com/aliow-personal-site/favicon.png" type="image/png">
 		<link rel="stylesheet" type="text/css" href="stylesheets/contact.css">
+		<script src="js/googleAnalytics.js"></script>
 	</head>
 
 	<body>
